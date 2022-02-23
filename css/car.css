@@ -1,0 +1,15 @@
+body{
+    width: 100%;
+}
+.header{
+    width: 95%;
+    margin: auto;
+    background-color: gray;
+}
+.heading{
+    width: 50%;
+}
+.headering{
+    width: 50%;
+    display: flex;
+}

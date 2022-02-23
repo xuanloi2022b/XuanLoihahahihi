@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.header-logo{
+    margin-right: 30px;
+}
+.loi{
+    padding: 5px;
+}
+.header-nav-list{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    display: flex;
+}
+.header-nav-list li:hover{
+    color: blue;
+}
+.header-nav-list a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.header-nav-list li{
+    padding:0 10px;
+}
+.heading{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.tracomeco {
+    display: flex;
+    align-items: center;
+}
+.carosel{
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/three\ oto.jpg');
+    position: relative;
+}
+.place_input_start,
+.place_input_end,
+.Calender{
+    width: 29%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2px;
+}
+.place_input_start i,
+.place_input_end i,
+.Calender i{
+    padding: 0 10px;
+}
+input[type="text"]{
+    padding: 20px 12px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.title_carosel h1{
+    position: absolute;
+    top: 290px;
+    color: white;
+    left: 370px;
+}
+.input_service{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 310px;
+    left: 15%;
+}
+.carosel .find button{
+    padding: 20px 12px;
+    color: gray;
+    background-color: rgb(219, 219, 15);
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.title_car h2{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0 ;
+    margin-top:  15px;;
+}
+.title_car p{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+    word-break: break-word;
+}
+.car{
+    max-width: 1189px;
+    margin: 0 auto;
+}
+.bottom_car img{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.title_car_1 h2{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0 ;
+    margin-top:  15px;;
+}
+.title_car_1 h3{
+    font-size: 17px;
+    font-weight: 450;
+    padding: 10px 0 ;
+    margin-top: 5px;;
+}
+.title_car_1 p{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+    word-break: break-word;
+    margin-top: 10px;
+}
+.title_car_1 p strong{
+    font-weight: 500;
+}
+.title_car_1 ul li{
+    display: flex;
+    font-size: 14px;
+    font-weight: 300;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.bottom_1 img{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.garage{
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+.footer{
+    width: 80%;
+    margin: 40px auto;
+}
+.footer p,
+.footer h2
+{
+    color: rgb(24, 103, 170);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    
+}
+.letter a i{
+    font-size: 34px;
+    color: rgb(182, 181, 181);
+}
+.img_letter1{
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+}
+.img_letter1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer_end {
+    display: flex;
+}
+.footer   {
+    display: flex;
+    justify-content:space-between;
+}
+.card_visa{
+    display: flex;
+}
+.card_key{
+    display: flex;
+}
+.footer_card{
+    margin-left: 150px;
+}

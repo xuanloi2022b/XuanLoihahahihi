@@ -1,0 +1,102 @@
+/* *{margin: 0 auto;}
+.all{
+    width: 100%;
+    height: auto;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.loi{
+    padding: 5px;
+}
+.header-nav-list{
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    display: flex;
+}
+.header-nav-list li:hover{
+    color: blue;
+
+}
+.header-nav-list li{
+    padding:0 10px;
+}
+.heading{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.button-btn{
+    width: 110px;
+    height: 36px;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 1.4rem;
+}   
+.search{
+    width: 100%;
+    height: 662px;
+    display: flex;
+    position: relative;
+}
+.body-img{
+    background-image: url('https://static.vexere.com/production/banners/330/tet_leader-board_1920x922_optimize.jpg');
+    width: 100%;
+    height: 662px;
+    background-size: contain;
+}
+.search-input{
+    width: 981px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 316px;
+    left: 205px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.search-text{
+    position: absolute;
+    top: 277px;
+    left: 311px;
+    font-size: 3.1rem;
+    font-weight: 500;
+    color: white;
+}
+.input-in{
+    width: 333px;
+    height: 100%;
+    font-size: 1.8rem;
+    outline: none;
+    border: none;
+}
+.input-in-day .input-in{
+    width: 333px;
+    height: 100%;
+}
+.button-in{
+    width: 170px;
+    height: 100%;
+    background-color: yellow;
+    font-size: 1.8rem;
+    font-weight: 900;
+    outline: none;
+    border: none;
+}
+.icon{
+    font-size: 2.2rem;
+    padding: 0 10px;
+}
+.haha{
+    font-size: 2.3rem;
+    font-weight: 500;   
+} */

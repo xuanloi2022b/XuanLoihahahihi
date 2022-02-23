@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header-logo{
+    margin-right: 30px;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.loi{
+    padding: 5px;
+}
+.header-nav-list{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+.header-nav-list li:hover{
+    color: blue;
+}
+.header-nav-list a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.header-nav-list li{
+    padding:0 10px;
+}
+.heading{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.tracomeco {
+    display: flex;
+    align-items: center;
+}
+.carosel{
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/bg.jpg');
+    position: relative;
+}
+.place_input_start,
+.place_input_end,
+.Calender{
+    width: 29%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2px;
+}
+.place_input_start i,
+.place_input_end i,
+.Calender i{
+    padding: 0 10px;
+}
+input[type="text"]{
+    padding: 20px 12px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.title_carosel h1{
+    position: absolute;
+    top: 290px;
+    color: white;
+    left: 370px;
+}
+.input_service{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 310px;
+    left: 15%;
+}
+.carosel .find button{
+    padding: 20px 12px;
+    color: gray;
+    background-color: rgb(219, 219, 15);
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex_2{
+    display: flex;
+    justify-content: space-between;
+}
+.title_sales h2,
+.title_news h2,
+.conect_title h2,
+.title_chanel h2,
+.title_truck h2
+{
+    color: gray;
+    font-size: 25px;
+    padding: 20px 0;
+}
+.sales,
+.media_conect,
+.chanel,
+.truck,
+.footer_1,
+.footer_2,
+.footer_3
+{
+    width: 80%;
+    margin: 40px auto;
+}
+.sales .img1{
+    width: 31%;
+    height: 250px;
+}
+.sales .img1 img{
+    width: 100%;
+    height: 100%;
+}
+.news{
+    width: 80%;
+    margin: 40px auto;
+    overflow-x: scroll;
+}
+.img2{
+    width: 31%;
+    min-width: 31%;
+    height: 260px;
+    border: 1px solid rgb(212, 212, 212);
+    position: relative;
+    border-radius: 4px;
+    margin: 0 10px;
+}
+.img2 img{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.img2 p{
+    position: absolute;
+    top: 73%;
+    padding: 2px 5px;
+    font-size: 18px;
+}
+.content_conect .content_1 .content_text h3{
+    font-size: 17px;
+    padding: 5px;
+}
+.content_conect .content_1 .content_text p{
+    font-size: 14px;
+    padding: 5px;
+}
+.content_conect .content_1{
+    width: 24.5%;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 8px;
+}
+.content_conect .content_1 img{
+    padding: 5px;
+}
+.logo_chanel{
+    width: 15%;
+}
+.logo_chanel img{
+    width: 100%;
+}
+.img_truck{
+    width: 24%;
+    height: 200px;
+    position: relative;
+}
+.img_truck img{
+    width: 100%;
+    height: 100%;
+}
+.img_truck p{
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    left: 22%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.garage{
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+}
+.bede p{
+    padding: 5px 0;
+    color: rgb(75, 73, 73);
+    font-weight: 300;
+}
+.bede p:hover{
+    color: blue;
+}
+.letter_garage h3{
+    padding: 5px 0;
+    font-weight: 500;
+}
+.footer_2{
+    border-bottom: 1px solid black;
+
+}
+.img_letter{
+    width: 121px;
+    height: 46px;
+    padding: 5px 0;
+}
+.img_letter img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img_letter_2{
+    width: 145px;
+    height: 55px;
+    padding: 5px 0 0 0;
+}
+.img_letter_2 img{
+    width: 100%;
+    height: 100%;
+}
+.company{
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+.company h3{
+    padding-bottom: 10px;
+}
+
+
+
+

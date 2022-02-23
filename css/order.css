@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    box-shadow: rgb(0 0 0 / 5%) 0px 3px 5px;
+}
+.header-logo{
+    margin-right: 30px;
+}
+.loi{
+    padding: 5px;
+}
+.header-nav-list{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    display: flex;
+}
+.header-nav-list li:hover{
+    color: blue;
+}
+.header-nav-list a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.header-nav-list li{
+    padding:0 10px;
+}
+.heading{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.tracomeco {
+    display: flex;
+    align-items: center;
+}
+.carosel{
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/bg.jpg');
+    position: relative;
+}
+.information{
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 50px black;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+.information_form1 input{
+    width: 480px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 20px;
+    margin-top: 10px;
+}
+.p{
+    font-weight: 400;
+    font-size: 15px;
+}
+.title_information h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+.information_form2{
+    margin-top: 20px;
+}
+.information_form2 button{
+    font-size: 14px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(69, 127, 235);
+    color: white;
+    width: 51%;
+}
+.information_form3 button{
+    font-size: 30px;
+    padding: 20px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(204, 202, 202);
+    color: black;
+    margin-top: 20px;
+}
+.information_form3 p{
+    font-size: 15px;
+} 

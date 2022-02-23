@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+body{
+    background: rgb(238, 250, 255);
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(82, 81, 81);
+}
+form{
+    width: 40%;
+    padding: 20px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 3px rgb(184, 183, 183);
+    border-radius: 8px;
+    background-color: white;
+}
+input[type="text"]{
+    width: calc(100% - 140px);
+    padding: 8px 70px;
+    border: 1px solid rgb(199, 199, 199);
+    outline: none;
+    border-radius: 4px;
+    transition: .5s;
+    position: relative;
+}
+.form_sdt{
+    position: relative;
+}
+
+input[type="text"]:hover{
+    border: 1px solid rgb(106, 180, 250);
+}
+.form_sdt:before{
+    content: "+84 |";
+    position: absolute;
+    color: rgb(119, 118, 118);
+    left: 10px;
+    bottom: 8px;
+    z-index: 10;
+}
+button[type="submit"]:hover{
+    border: 1px solid rgb(106, 180, 250);
+    color: rgb(106, 180, 250);
+}
+button[type="submit"]{
+    width: 100%;
+    border: 1px solid rgb(199, 199, 199);
+    outline: none;
+    padding: 8px 0;
+    border-radius: 4px;
+    background-color: inherit;
+    font-weight: 500;
+    color: #333;
+    margin: 10px 0;
+    transition: .5s;
+    cursor: pointer;
+}
